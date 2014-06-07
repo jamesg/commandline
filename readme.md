@@ -5,12 +5,13 @@ A tiny (one header) library for parsing command line options.
 
 To keep the library as simple as possible, only three argument formats are
 supported:
-    . Boolean flags - the presence of the argument indicates true (e.g.
-    '--flag').
-    . Single arguments - an option name followed by a single value (e.g. '--arg
-    value')
-    . Lists - an option name followed by zero or more values (e.g. '--list a b
-    c').
+
+* Boolean flags - the presence of the argument indicates true (e.g.
+  '--flag').
+* Single arguments - an option name followed by a single value (e.g. '--arg
+  value')
+* Lists - an option name followed by zero or more values (e.g. '--list a b
+  c').
 
 All option names are preceded by two dashes.
 This fact is used to differentiate between option names and values (so values
